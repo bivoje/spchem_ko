@@ -20,8 +20,10 @@ raw_mapping_list = [
   list(range(0x2080, 0x208C)), #19: ₀ ₁ ₂ ...19: ₉ ₊ ₋ # Superscripts and Subscripts
 ]
 
-mapping_alpha = list(map(chr,range(0x00C0, 0x00C0+33)))
-mapping_jamo = 'ㅁ ㅎ ㅊ ㅜ ㄷ ㄹ ㅠ ㅗ ㅑ ㅓ ㅏ ㅣ ㅡ ㅇ ㅐ ㅂ ㅔ ㄱ ㄴ ㅅ ㅕ ㅍ ㅈ ㅌ ㅛ ㅋ ㄸ ㅒ ㅖ ㅃ ㄲ ㅆ ㅉ'.split()
+#mapping_alpha = list(map(chr,range(0x00C0, 0x00C0+33)))
+#mapping_jamo = 'ㅁ ㅎ ㅊ ㅜ ㄷ ㄹ ㅠ ㅗ ㅑ ㅓ ㅏ ㅣ ㅡ ㅇ ㅐ ㅂ ㅔ ㄱ ㄴ ㅅ ㅕ ㅍ ㅈ ㅌ ㅛ ㅋ ㄸ ㅒ ㅖ ㅃ ㄲ ㅆ ㅉ'.split()
+mapping_alpha = list(map(chr,range(0x0120, 0x0120+33)))
+mapping_jamo = 'ㄸ ㅒ ㅖ ㄲ ㅃ ㅆ ㅉ ㅁ ㅂ ㅏ ㄷ ㅊ ㄱ ㅇ ㄹ ㅎ ㅑ ㅓ ㅠ ㅅ ㄴ ㅣ ㅗ ㅔ ㅐ ㅡ ㅈ ㅜ ㅕ ㅍ ㅌ ㅛ ㅋ'.split()
 
 shadowed = set()
 
@@ -38,8 +40,4 @@ for line in sys.stdin.readlines():
       buff += ch
   print(buff, end='')
 
-print(shadowed)
-
-test="""
-echo -e '안녕하세요\r\n이건 apple 입니다.\r\nwhat the  Â Ã Ä hell\r\n' | ./mapper.py
-"""
+print(shadowed, file=sys.stderr)
