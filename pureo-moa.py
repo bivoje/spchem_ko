@@ -18,6 +18,16 @@ jungsung = (
 	"ㅗ", "ㅘ", "ㅙ", "ㅚ", "ㅛ", "ㅜ", "ㅝ", "ㅞ",
 	"ㅟ", "ㅠ", "ㅡ", "ㅢ", "ㅣ")
 
+johap_moeum = {
+		'ㅘ': ('ㅗ', 'ㅏ'),
+		'ㅙ': ('ㅗ', 'ㅐ'),
+		'ㅚ': ('ㅗ', 'ㅣ'),
+		'ㅝ': ('ㅜ', 'ㅓ'),
+		'ㅞ': ('ㅜ', 'ㅔ'),
+		'ㅟ': ('ㅜ', 'ㅣ'),
+		'ㅢ': ('ㅡ', 'ㅣ'),
+}
+
 jongsung = (
 	"", "ㄱ", "ㄲ", "ㄳ", "ㄴ", "ㄵ", "ㄶ", "ㄷ",
 	"ㄹ", "ㄺ", "ㄻ", "ㄼ", "ㄽ", "ㄾ", "ㄿ", "ㅀ",
@@ -68,14 +78,16 @@ def hangeulJoin(inputlist):
 
 def pureosseugi(inputtext):
 	"""입력된 문장에 있는 모든 한글 글자를 풀어쓰기로 바꾼다."""
-	result = ""
 	for i in inputtext:
 		if isHangeul(i) == True:
 			for j in hangeulExplode(i):
-				result += j
+				if j in johap_moeum:
+					for k in johap_moeum[j]:
+						yield k
+				else:
+					yield j
 		else:
-			result += i
-	return result
+			yield i
 
 def moasseugi(inputtext):
 	"""입력된 문장에 있는 모든 풀어쓰기된 한글을 모아쓰기로 바꾼다."""
@@ -91,6 +103,6 @@ if __name__ == '__main__':
 	# compiles it into list of unicode code points
 	text = reduce(lambda s,t:s+t, sys.stdin.readlines())
 	if sys.argv[1:2] == ['pureo']:
-		print(pureosseugi(text), end='')
+		print(''.join(pureosseugi(text)), end='')
 	else:
 		print(moasseugi(text), end='')

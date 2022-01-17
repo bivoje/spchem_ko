@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+import importlib
+pureomoa = importlib.import_module("pureo-moa")
+pureosseugi = pureomoa.pureosseugi
+import sys
+
 # unicode code points in order they are arranged in
 # normal/medium/large/tiny/tooltip.png
 raw_mapping_list = [
@@ -15,3 +20,26 @@ raw_mapping_list = [
   list(range(0x2080, 0x208C)), #19: ₀ ₁ ₂ ...19: ₉ ₊ ₋ # Superscripts and Subscripts
 ]
 
+mapping_alpha = list(map(chr,range(0x00C0, 0x00C0+33)))
+mapping_jamo = 'ㅁ ㅎ ㅊ ㅜ ㄷ ㄹ ㅠ ㅗ ㅑ ㅓ ㅏ ㅣ ㅡ ㅇ ㅐ ㅂ ㅔ ㄱ ㄴ ㅅ ㅕ ㅍ ㅈ ㅌ ㅛ ㅋ ㄸ ㅒ ㅖ ㅃ ㄲ ㅆ ㅉ'.split()
+
+shadowed = set()
+
+for line in sys.stdin.readlines():
+  buff = ""
+  for ch in pureosseugi(line):
+    if ch in mapping_alpha:
+      shadowed.add(ch)
+      buff += chr(ord(ch)+0x40 if ch == 0x00C0 else ord(ch)+0x20)
+    elif ch in mapping_jamo:
+      idx = mapping_jamo.index(ch)
+      buff += mapping_alpha[idx]
+    else:
+      buff += ch
+  print(buff, end='')
+
+print(shadowed)
+
+test="""
+echo -e '안녕하세요\r\n이건 apple 입니다.\r\nwhat the  Â Ã Ä hell\r\n' | ./mapper.py
+"""
