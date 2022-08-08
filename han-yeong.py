@@ -8,13 +8,13 @@
 # https://web.archive.org/web/20220116013552/https://gall.dcinside.com/board/view/?id=europa&no=573662
 
 jamo = (
-	"ㄱ", "ㄲ", "ㄳ", "ㄴ", "ㄵ", "ㄶ", "ㄷ",
-	"ㄹ", "ㄺ", "ㄻ", "ㄼ", "ㄽ", "ㄾ", "ㄿ", "ㅀ",
-	"ㅁ", "ㅂ", "ㅄ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅊ",
-	"ㅋ", "ㅌ", "ㅍ", "ㅎ",
-	"ㅏ", "ㅐ", "ㅑ", "ㅒ", "ㅓ", "ㅔ", "ㅕ", "ㅖ",
-	"ㅗ", "ㅘ", "ㅙ", "ㅚ", "ㅛ", "ㅜ", "ㅝ", "ㅞ",
-	"ㅟ", "ㅠ", "ㅡ", "ㅢ", "ㅣ")
+    "ㄱ", "ㄲ", "ㄳ", "ㄴ", "ㄵ", "ㄶ", "ㄷ",
+    "ㄹ", "ㄺ", "ㄻ", "ㄼ", "ㄽ", "ㄾ", "ㄿ", "ㅀ",
+    "ㅁ", "ㅂ", "ㅄ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅊ",
+    "ㅋ", "ㅌ", "ㅍ", "ㅎ",
+    "ㅏ", "ㅐ", "ㅑ", "ㅒ", "ㅓ", "ㅔ", "ㅕ", "ㅖ",
+    "ㅗ", "ㅘ", "ㅙ", "ㅚ", "ㅛ", "ㅜ", "ㅝ", "ㅞ",
+    "ㅟ", "ㅠ", "ㅡ", "ㅢ", "ㅣ")
 
 alpha = (
     'r', 'R', 'rt', 's', 'sw', 'sg', 'e',
@@ -26,24 +26,24 @@ alpha = (
     'nl', 'b', 'm', 'ml', 'l')
 
 def hanyeong(inputtext):
-  result = ""
-  for i in inputtext:
-    if i in jamo:
-      result += alpha[jamo.index(i)]
-    else:
-      result += i
-  return result
+    result = ""
+    for i in inputtext:
+        if i in jamo:
+            result += alpha[jamo.index(i)]
+        else:
+            result += i
+    return result
 
 def yeonghan(inputtext):
-  raise NotImplementedError
+    raise NotImplementedError
 
 if __name__ == '__main__':
-	import sys
-	from functools import reduce
-	# assumes utf-8 encoding input & python effectively
-	# compiles it into list of unicode code points
-	text = reduce(lambda s,t:s+t, sys.stdin.readlines())
-	if sys.argv[1:2] == ['yeong']:
-		print(hanyeong(text), end='')
-	else:
-		print(heonghan(text), end='')
+    import sys
+    from functools import reduce
+    # assumes utf-8 encoding input & python effectively
+    # compiles it into list of unicode code points
+    text = sys.stdin.read()
+    if sys.argv[1:2] == ['yeong']:
+            print(hanyeong(text), end='')
+    else:
+            print(yeonghan(text), end='')

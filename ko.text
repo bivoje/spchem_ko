@@ -138,13 +138,12 @@ SpaceChem 정도 규모의 기업은 몇 개 되지 않는다. 경쟁사는 SFCM
 ### Bonding4
 
 최악의 오작동
-A Most Unfortunate Malfunction
 
 "마리안, 당장 여기로 와." 인터폰으로 조엘의 긴박한 목소리가 들려왔다.
 마리안은 대답할 새도 없이 방에서 뛰쳐나갔다. 미끄러져 다른 단말에 부딪히는 마리안의 의자를 피하곤, 나도 복도를 달려 조엘의 사무실로 갔다. 그는 땀으로 셔츠를 흥건히 적신 채 컴퓨터 앞에 웅크려있었다. 마리안은 통제 패널을 조작하고 있었다.
 조엘이 키보드에 주먹을 내리쳤다. "뭐 하나 제대로 작동하는게 없잖아"
 "정지한 채굴로봇을 재가동시켰습니다." 마리안이 스위치를 누르고 화면을 돌려 보여줬다. 비틀거리며 질주하는 로봇이 보였다.
-다가오는 로봇을 붉은 원으로 표시한 지도가 화면에 나타났다. "본부를 향해 오고 있습니다."
+다가오는 로봇을 붉은 원으로 표시한 지도가 화면에 나타났다. "기지를 향해 오고 있습니다."
 "어떻게든 멈춰야겠어." 조엘이 말했다.
 "로봇의 진로를 바꿀 수는 없을까요?" 내가 물었다.
 마리안이 단말기 인터페이스에서 손가락을 빠르게 놀려 통신채널을 확인했다.
@@ -152,7 +151,97 @@ A Most Unfortunate Malfunction
 "그럼 이제 어떻하죠?" 내가 물었다.
 조엘은 방을 가로질러 가 소화기 밑의 수납장을 열었다. 거기엔 긴급상황용 우주복이 들어있었다. "저 로봇이 본부 어디라도 부딪혔다간, 우린 모두 통구이가 될 거야."
 [bonding4]
-사이렌이 울리는 가운데 조엘은 우주복을 입고 헬멧의 기밀을 확인했다. 그는 출입구 앞에서 돌아서서 말했다. "본부 건물 바깥에 산소탱크가 있지. 메탄 추출기를 써서 폭발 직전까지 채우도록 해. 시간을 잘 맞추면 한쪽 구동륜을 모두 파괴할 수 있을걸세."
+사이렌이 울리는 가운데 조엘은 우주복을 입고 헬멧의 기밀을 확인했다. 그는 출입구 앞에서 돌아서서 말했다. "기지 건물 바깥에 산소탱크가 있지. 메탄 추출기를 써서 폭발 직전까지 채우도록 해. 시간을 잘 맞추면 한쪽 구동륜을 모두 파괴할 수 있을걸세."
 "하지만, 산소 비축이 바닥나게 됩니다." 마리안이 목소리를 떨며 말했다.
 "살아서 그 산소를 쓸 수 있을 경우의 이야기지," 조엘이 말했다. "자네들 도와줄 여력은 없네. 살아남는다면, 그때 보자구."
 나는 마리안 쪽을 보았다. 마리안의 빨간 점프슈트가 점멸하는 비상등에 따라 깜빡였다. 조엘을 뒤로한 채 출입구의 문이 슥 닫혔다.
+
+### Bonding5
+
+불발
+
+[bonding5]
+탈출용 포드가 기지로부터 튀어올랐다. 고도가 높아짐에 따라 다놉스 지표면에 남은 발사 파편들이 창문에서 점점 보이지 않게 되었다. 수트에서 헬멧을 분리하자 쉭- 소리가 났다.
+얼굴이 땀 범벅이 된 조엘이 셔틀 저쪽편에서 장갑 낀 손을 내밀었다. 나는 손을 뻗어 악수에 응했다.
+"훌륭하군. 자네 덕분에 살아서 나올 수 있었네." 조엘은 내 손을 놓고 소매로 이마의 땀을 훔쳤다.
+내 손은 마치 문에 끼었다 빠진 듯한 느낌이었다. "이제 어떡합니까?"
+"기지는 폐쇄될걸세. 인원들은 모두 재발령 되었지. 그리고 자네는 승진이네."
+마리안은 입을 오므렸지만 말을 입밖에 내진 않았다.
+"생각보다 빠르군요," 나는 말했다. "그나저나 오작동 원인이 뭡니까?"
+"프로그램 결함이지." 조엘은 어깨를 으쓱했다. 그는 시선을 바닥으로 떨구곤 이어 말했다. "로봇에 이상한 점이 있긴 했지만."
+"무슨 말씀이지죠?"
+조엘은 눈을 감고 의자 머리받침에 머리를 기댔다. "로봇의 제어 유닛을 열었더니 거기에 기술자 한 명이 끼어 들어가 있었네. 물론 죽은 채로."
+조엘은 다시 어깨를 으쓱했지만 나는 공포에 입이 다물어지지 않았다. 이내 곧, 조엘은 빨리도 골아떨어져 코를 골기 시작했다.
+
+### Sensing1
+
+편두통 전조
+
+조엘은 문을 등지고, 창문을 통해 푸근한 목초지의 녹색 풀을 바라보았다. 돌풍이 언덕을 타고 불어 풀들이 출렁였다. 내가 방에 들어서자 문이 발뒤꿈치에 스칠듯 닫혔다. 나는 조엘과 함께 푸른 하늘과 구름을 만끽했다.
+"다놉스에서 그렇게 오랜 시간을 보냈다는게 믿기질 않는군. 녹색이 얼마나 멋진 색인지 잊어버릴 참이었어," 그가 말했다. "센서 훈련은 어떤가? 다 잘 작동하나?"
+"문제 없습니다. 모든 게 역할대로 움직입니다."
+조엘은 턱수업을 쓸어내리곤 빙긋 웃었다. 지난 주 채굴로봇의 고난을 넘기고 그는 알코노스트에서 안정을 찾고 있었다. 우리 모두가 그랬다. 조엘이 없을 때 간간히 마리안과 그 사건에 대해 이야기했다. 조엘이 헬멧을 쓰고 문 밖으로 나가던 때, 그는 전혀 허둥지둥 결단하지 않았다. 나는 마리안에게 그런 상황에 대한 훈련이 있었냐고 물었다. 그녀는 나를 째려보더니 등을 돌려 하던 일을 계속했다.
+조엘은 밖에서 들어온 빛 때문인 듯 움찔거리곤 콧잔등을 눌렀다. "좀 앉아야겠네."
+그는 의자에 털썩 주저앉아 책상에 올린 팔에 사이에 머리를 파묻었다.
+"어디 안좋으십니까?" 내가 물었다.
+"괜찮네, 그냥 편두통이야." 그가 서랍을 더듬어 그 속을 뒤적거리더니 이윽고 알약통이 잘그락 거리는 소리가 났다. "이야기는 다음에 하지."
+[sensing1]
+
+### Sensing2
+
+심상치 않은 두통
+
+3일 후 나는 설비 진단 보고서를 태블릿에 정리해 조엘의 사무실로 갔다. 현재 생산량은 다놉스 시절의 세 배를 웃돌아, 항성계 최고 수율을 내는 지역과도 겨룰 만큼 기록적인 수준이었다.
+나는 데이터와 도표에서 눈도 떼지 않은 채, 문이 열리기 무섭게 방에 들어갔다. 누군가의 신음소리에 고개를 들자 거기엔 책상에 머리를 박은 채, 이를 갈며 머리카락을 쥐어뜯는 조엘이 있었다. 애나멜질이 으그러지는 소리와 턱뼈가 빠득이는 소리가 났다.
+"조엘?" 태블릿이 바닥에 무방비하게 떨어졌다.
+그는 앓는 소리를 내곤 한쪽 눈만 뜨인 머리를 들어 옆의 금속 벽에 쳐박았다. 나는 서둘러 그에게 뛰어갔다. 조엘은 우는 소리를 내며 피가 흘러내리기 시작한 머리를 계속해 내쳤다. 나는 그의 팔을 내 목에 감아 부축해세웠다.
+"의료실로 가겠습니다."
+조엘을 끌고 복도로 나왔지만, 조엘은 내 말을 들을 상태가 아니었다.
+[sensing2]
+
+### Sensing3
+
+감사는 필요 없습니다
+
+나는 조엘에게서 온 메일을 열어놓은 채 화면에 잔상이 변색될 만큼이나 오랬동안 거듭 읽었다.
+"좋은 아침, 친구
+어제 도와줘서 고마워! 덕분에 오늘은 최고로 기분이 좋아. 아주 출륭해. 시간 있으면 내 사무실로 와요. ^^
+친애하는 조엘이"
+조엘은 큰 덩치에 턱수염이 덥수룩한 사내였다. 그는 벼랑 끝의 오두막에서 장작을 패는 게 어울릴 사람이다. 나는 조엘이 웃음표시를 덧붙이며 이런 쾌활한 편지를 쓰는 것을 상상할 수가 없다. 편두통이 심해서 기분좋은 알약이라도 처방받은 걸까.
+
+### Sensing4
+
+No Need for Introductions
+
+I hesitated to press the taupe intercom outside of his office. There was a muffled voice speaking inside the room but it did not sound like Joel. As I withdrew my hand, the door opened, as if on command. The room was lit only by the sun blazing in through the window; all I could see of Joel was his silhouette.
+{Come into the light and let me show you the truth.}
+The words echoed in my ear, though somehow, I knew they were unspoken. As Joel splayed his arms, a wave of pain blasted through my head. I clutched my ears as my heart heaved. The pain transformed into a rasping voice.
+{Behold the healing power of the stars.}
+Joel lurched out of the light. His face had disappeared, replaced by an expanse of tight puckers where his eyes and mouth had been. The skin was raw and pink. His beard had been stripped from his jaw and replaced by a shiny strip of scar tissue. His ears began to twitch.
+{Together we can know the truth. Together...}
+Agony warped my thoughts as white lights flashed behind my eyes. I crushed my hands against my head and banged my knees as I staggered to the floor. Joel's crumpled face was seared in my mind.
+A hand grasped my shoulder and shoved me onto the ground. Through the ringing, I heard the cock of a revolver, a gunshot, and the sound of something wet slumping against the floor. The ringing stopped as I regained my sight. I opened my eyes to see Joel's body in a heap.
+[sensing3]
+A leather shoe toed Joel's faceless body, turning the blank face to the floor. I looked up. There was a man in a charcoal suit holding an antique revolver with silver embossing. He paid no attention to me as I grunted and pulled myself up.
+"I suggest you get ready," he said as he pocketed the gun.
+I blinked. "For what?"
+"I'm heading to the particle accelerator lab." He stepped over Joel's corpse and stopped in the doorway. "Aim for the eye."
+The door closed as he sprinted through the hallway. I brushed myself off, turned around, and jumped at the sight of the giant, hovering pyramid outside. It stared back at me with its gargantuan eye.
+
+### Sensing5
+
+평범한 일
+A Common Occurrence
+
+The air reeked of a nauseating mixture of gun smoke and decaying flesh. I was sprawled over the console in Joel's office where his faceless body lay three meters from my station. The whispered echoes of the monster that had possessed Joel swirled in my mind, but I ignored them, knowing that the monster was as dead as Joel.
+Bruce entered the office, his suit rumpled and creased.
+"I'm closing this place down," he said.
+I gawked at him. All I could think of was the massive floating pyramid that had just been hovering outside.
+"What was that thing?" I asked.
+"An anomaly. It happens."
+"You call that an anomaly? Half the crew is dead. The base is in ruins."
+"It's a tragic circumstance of our work." He folded his hands together and bowed his head.
+There was a moment of silence but I very much doubted it was to mourn the lost. Bruce tapped his index fingers together and glanced to Joel's body.
+"You'll be transferred to Sikutar in a day or two." He slid his wrinkled jacket off his shoulders and laid it over Joel's head to hide the wound. "Strange things happen out here. People die. We do what we can. We cannot let these setbacks stop our work."
+My skin went cold when he finished speaking and I nodded to him. He grinned at me as if to say, "you understand," and left.
+[sensing5]
